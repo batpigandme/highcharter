@@ -16,10 +16,43 @@ hc_theme_highcontrast_light <- function(...) {
       '#5f98cf', '#434348', '#49a65e', '#f45b5b', '#708090', 
       '#b68c51', '#397550', '#c0493d', '#4f4a7a', '#b381b3'
     ),
+    chart = list(
+      style = list(
+        fontFamily = c("Lucida Grande", "Lucida Sans Unicode", "Arial", "Helvetica", "sans-serif"),
+        color = "#666666",
+        fill = "#666666"
+      )
+    ),
+    title = list(
+      align = "center",
+      style = list(
+        color = "#333333"
+      )
+    ),
+    subtitle = list(
+      align = "center",
+      color = "#666666"
+    ),
+    yAxis = list(
+      gridLineColor = "#e6e6e6",
+      lineColor = "#e6e6e6",
+      tickWidth = 1
+    ),
+    axisLine = list(
+      color = "#ccd6eb"
+    ),
     navigator = list(
       series = list(
         color = '#5f98cf',
         lineColor = '#5f98cf'
+      )
+    ),
+    plotOptions = list(
+      line = list(
+        marker = list(enabled = TRUE)
+      ),
+      spline = list(
+        marker = list(enabled = TRUE)
       )
     )
   )
